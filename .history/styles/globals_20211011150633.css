@@ -1,0 +1,69 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    height: 100vh;
+    width: 100%; 
+    overflow-y: hidden;
+    overflow-x: hidden; 
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+code {
+    background-color: rgba(#616161, 0.1);
+    color: #616161
+}
+
+* {
+  box-sizing: border-box;
+}
+
+pre {
+    background: #0d0d0d;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-family: "JetBrainsMono", monospace;
+    padding: 1rem;
+}
+
+.ProseMirror .is-empty::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: #ced4da;
+    pointer-events: none;
+    height: 0;
+}
+
+a {
+    color: #68CEF8
+}
+
+a:hover {
+    color: #992277
+}
+
+mark {
+    background-color: #faf594;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+blockquote {
+    border-left: 2px solid rgba(#0d0d0d, 0.1);
+    padding-left: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgba(#0d0d0d, 0.1);
+    margin: 2rem 0;
+}
