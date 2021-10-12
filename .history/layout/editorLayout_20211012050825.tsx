@@ -1,0 +1,1 @@
+import { Swatch } from '../components/S'
